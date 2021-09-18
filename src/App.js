@@ -30,7 +30,7 @@ function LoadComments() {
 
 function Comment(props) {
   return (
-    <div>
+    <div className="user">
       <h4>{props.title}</h4>
       <p>{props.body}</p>
     </div>
